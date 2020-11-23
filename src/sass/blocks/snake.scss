@@ -1,0 +1,27 @@
+.snake {
+    margin: 10px auto 0;
+    width: 210px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.snake__item {
+    width: 30px;
+    height: 30px;
+
+    background-color: $third;
+}
+
+.snake__item--grey {
+    background-color: $fourth;
+}
+
+.snake__item--mr {
+    margin-right: 60px;
+}
+
+.snake__item--ml {
+    margin-left: 60px;
+}

@@ -1,0 +1,27 @@
+/* Variables */
+@import "vars";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $first;
+    font-family: Comic Sans MS, cursive;
+}
+
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/start-screen";
+@import "blocks/snake";
+@import "blocks/options";
+@import "blocks/button";
+@import "blocks/loader";
+@import "blocks/canvas-container";
+@import "blocks/score";
+@import "blocks/canvas";
+@import "blocks/controls";
+@import "blocks/message";

@@ -1,0 +1,20 @@
+.button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 70px;
+
+    font-family: Comic Sans MS, cursive;
+    font-size: 18px;
+    color: $second;
+
+    background-color: $third;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+
+    transition: color .1s linear;
+
+    &:hover {
+        color: $first;
+    }
+}

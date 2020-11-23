@@ -1,0 +1,49 @@
+<div class="start-screen" id="start-screen">
+    <div class="start-screen__title">Snake</div>
+    <div class="start-screen__suptitle">version 1.03</div>
+
+    <div class="snake">
+        <div class="snake__item snake__item--grey"></div>
+        <div class="snake__item"></div>
+        <div class="snake__item snake__item--grey"></div>
+        <div class="snake__item"></div>
+        <div class="snake__item snake__item--grey snake__item--mr"></div>
+        <div class="snake__item snake__item--ml"></div>
+        <div class="snake__item snake__item--grey"></div>
+        <div class="snake__item"></div>
+        <div class="snake__item snake__item--grey"></div>
+        <div class="snake__item"></div>
+    </div>
+
+    <div class="options">
+        <div class="options__item">
+            <p class="options__text">Выберите первый цвет:</p>
+            <input class="options__input" type="color" list="colorList" id="first-Color" value="#999999">
+        </div>
+
+        <div class="options__item">
+            <p class="options__text">Выберите второй цвет:</p>
+            <input class="options__input" type="color" list="colorList" id="second-Color" value="#111111">
+        </div>
+
+        <div class="options__item">
+            <p class="options__text" >Ускорение:</p>
+            <select class="option__select" name="acceleration" size="1" id="acceleration">
+                <option value="10">Да</option>
+                <option value="0">Нет</option>
+            </select>
+        </div>
+
+        <div class="options__item">
+            <p class="options__text" >Начальная скорость:</p>
+            <select class="option__select" name="startSpeed" size="1" id="start-speed">
+                <option value="200">Медленная</option>
+                <option value="150" selected>Средняя</option>
+                <option value="100">Быстрая</option>
+            </select>
+        </div>
+
+    </div><!-- /.options -->
+
+    <button class="button" id="button">Начать!</button>
+</div><!-- /.start-screen -->

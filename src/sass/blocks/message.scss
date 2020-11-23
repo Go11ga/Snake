@@ -1,0 +1,24 @@
+.message {
+    width: 150px;
+    height: 150px;
+
+    font-size: 16px;
+    color: $second;
+
+    background-color: $first;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate(-50%, -50%);
+}
+
+.message--hide {
+    display: none;
+}

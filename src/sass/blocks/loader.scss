@@ -1,0 +1,25 @@
+.loader {
+    width: 480px;
+    height: 480px;
+
+    background-color: $third;
+    background-image: url("../img/loader.gif");
+    background-position: center;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+
+    transform: translate(-50%, -50%);
+
+    transition: height .5s linear;
+}
+
+.loader--hide {
+    height: 0;
+
+    overflow: hidden;
+}

@@ -1,0 +1,27 @@
+.options {
+    margin: 30px auto 0;
+    padding: 10px 0 20px 10px;
+    width: 80%;
+
+    border: 10px solid $third;
+}
+
+.options__text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: $second;
+}
+
+.options__input {
+    margin-top: 5px;
+
+    background-color: $second;
+    border: 0;
+}
+
+.option__select {
+    margin-top: 5px;
+
+    background-color: $second;
+    border: 0;
+}
